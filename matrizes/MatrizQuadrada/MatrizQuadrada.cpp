@@ -1,8 +1,13 @@
-#include "../MatrizGeral.hpp"
+#include "MatrizQuadrada.hpp"
 
-class MatrizQuadrada: public MatrizGeral {
+MatrizQuadrada::MatrizQuadrada(int tamanho) : MatrizGeral(tamanho, tamanho) {}
 
-public:
-    MatrizQuadrada(int tamanho);
-    ~MatrizQuadrada();
-};
+MatrizQuadrada::~MatrizQuadrada() {}
+
+double MatrizQuadrada::traco() const {
+  double traco = 0.0;
+  for (int i = 0; i < linhas; ++i) {
+    traco += get(i, i);
+  }
+  return traco;
+}

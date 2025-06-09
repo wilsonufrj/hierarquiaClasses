@@ -1,0 +1,80 @@
+# Matriz 1: Quadrada (2x2)
+TIPO:QUADRADA
+DIM:2x2
+DADOS:
+1.0 2.0
+3.0 4.0
+
+# Matriz 2: Diagonal (3x3)
+TIPO:DIAGONAL
+DIM:3x3
+DADOS:
+5.0 0.0 0.0
+0.0 8.0 0.0
+0.0 0.0 1.0
+
+# Matriz 3: Triangular Superior (3x3)
+TIPO:TRIANGULAR_SUPERIOR
+DIM:3x3
+DADOS:
+1.0 2.0 3.0
+0.0 4.0 5.0
+0.0 0.0 6.0
+
+# Matriz 4: Triangular Inferior (2x2)
+TIPO:TRIANGULAR_INFERIOR
+DIM:2x2
+DADOS:
+7.0 0.0
+8.0 9.0
+
+# Matriz 5: Quadrada (3x3)
+TIPO:QUADRADA
+DIM:3x3
+DADOS:
+1.0 1.0 1.0
+1.0 1.0 1.0
+1.0 1.0 1.0
+
+# Matriz 6: Diagonal (4x4)
+TIPO:DIAGONAL
+DIM:4x4
+DADOS:
+2.0 0.0 0.0 0.0
+0.0 4.0 0.0 0.0
+0.0 0.0 6.0 0.0
+0.0 0.0 0.0 8.0
+
+# Matriz 7: Triangular Superior (4x4)
+TIPO:TRIANGULAR_SUPERIOR
+DIM:4x4
+DADOS:
+10.0 20.0 30.0 40.0
+ 0.0 50.0 60.0 70.0
+ 0.0  0.0 80.0 90.0
+ 0.0  0.0  0.0 100.0
+
+# Matriz 8: Triangular Inferior (3x3)
+TIPO:TRIANGULAR_INFERIOR
+DIM:3x3
+DADOS:
+1.0 0.0 0.0
+2.0 3.0 0.0
+4.0 5.0 6.0
+
+# Matriz 9: Nula / Quadrada / Diagonal / Triangular (3x3)
+TIPO:QUADRADA
+DIM:3x3
+DADOS:
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.0 0.0 0.0
+
+# Matriz 10: Quadrada (4x4)
+TIPO:QUADRADA
+DIM:4x4
+DADOS:
+1.0  2.0  3.0  4.0
+5.0  6.0  7.0  8.0
+9.0 10.0 11.0 12.0
+13.0 14.0 15.0 16.0
